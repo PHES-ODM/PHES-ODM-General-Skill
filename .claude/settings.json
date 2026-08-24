@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__phes-odm-search__search_odm_parts",
+      "mcp__phes-odm-search__get_class_slots",
+      "mcp__phes-odm-search__get_enum_values",
+      "mcp__phes-odm-search__list_part_types",
+      "mcp__phes-odm-search__get_version",
+      "Bash(odm-validate:*)",
+      "Bash(odm-map --help)",
+      "Bash(python scripts/check_skill_refs.py)",
+      "Bash(python3 scripts/check_skill_refs.py)"
+    ]
+  }
+}

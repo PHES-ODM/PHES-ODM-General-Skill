@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+
+# Node (markdownlint tooling, if run locally)
+node_modules/
+
+# Claude Code local settings — personal, not shared with the team
+.claude/settings.local.json
+
+# Scratch output from validating or mapping example data
+/tmp-odm/
+*.log

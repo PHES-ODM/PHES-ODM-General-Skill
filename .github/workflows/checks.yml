@@ -1,0 +1,46 @@
+# Verifies that the skill still describes the ODM accurately.
+#
+# The reference checker is the guard against this repository's recurring
+# defect: a table, column, or enumeration name in SKILL.md that reads like real
+# ODM but does not exist in the schema. It also catches a skill name or version
+# that has drifted out of sync between the frontmatter and the plugin
+# manifests.
+name: checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check-skill-refs:
+    name: SKILL.md reference check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Resolve every ODM identifier in SKILL.md
+        run: python scripts/check_skill_refs.py
+
+  markdownlint:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Rules live in .markdownlint.json, which markdownlint-cli2 picks up
+      # automatically. Run the same command locally before pushing.
+      - name: Lint Markdown
+        run: npx --yes markdownlint-cli2 "**/*.md"

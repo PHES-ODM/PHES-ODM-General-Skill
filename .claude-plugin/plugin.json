@@ -1,0 +1,23 @@
+{
+  "name": "phes-odm-general",
+  "version": "1.0.0",
+  "description": "Makes Claude an expert in the Public Health Environmental Surveillance Open Data Model (PHES-ODM): look up ODM parts, onboard new users, get step-by-step table population guidance, validate ODM data files, and map data from NWSS, PHA4GE, ODM v1, or ODM wide format into ODM v3.",
+  "author": {
+    "name": "PHES-ODM",
+    "url": "https://github.com/PHES-ODM"
+  },
+  "homepage": "https://docs.phes-odm.org",
+  "repository": "https://github.com/PHES-ODM/PHES-ODM-General-Skill",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "phes-odm",
+    "odm",
+    "wastewater",
+    "wastewater-based-epidemiology",
+    "public-health",
+    "environmental-surveillance",
+    "data-model",
+    "linkml",
+    "data-validation"
+  ]
+}

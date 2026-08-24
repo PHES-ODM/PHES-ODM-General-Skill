@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: PHES-ODM discussion board
+    url: https://odm.discourse.group
+    about: Questions about the data model itself, rather than this skill.
+  - name: PHES-ODM documentation
+    url: https://docs.phes-odm.org
+    about: Full reference documentation for the ODM.

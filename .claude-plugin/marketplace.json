@@ -1,0 +1,27 @@
+{
+  "name": "phes-odm",
+  "owner": {
+    "name": "PHES-ODM",
+    "url": "https://github.com/PHES-ODM"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for the Public Health Environmental Surveillance Open Data Model (PHES-ODM).",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "phes-odm-general",
+      "source": "./",
+      "description": "General-purpose PHES-ODM assistant: part lookups, onboarding, table population, data validation, and format mapping.",
+      "version": "1.0.0",
+      "category": "data",
+      "keywords": [
+        "phes-odm",
+        "odm",
+        "wastewater",
+        "public-health",
+        "data-model"
+      ]
+    }
+  ]
+}
