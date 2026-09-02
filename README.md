@@ -148,7 +148,7 @@ pip install git+https://github.com/PHES-ODM/PHES-ODM-Mapper.git
 
 > **Note:** the Mapper repository may be private, and it currently depends on
 > LinkML-Map features that have not yet been released. Contact
-> [phes_odm@ohri.ca](mailto:phes_odm@ohri.ca) if the install fails.
+> [odm-info@phes-odm.org](mailto:odm-info@phes-odm.org) if the install fails.
 
 ---
 
@@ -214,7 +214,7 @@ and pull request via [GitHub Actions](.github/workflows/checks.yml).
 
 - Full ODM documentation: <https://docs.phes-odm.org>
 - Community discussion board: <https://odm.discourse.group>
-- Questions about this repository: [phes_odm@ohri.ca](mailto:phes_odm@ohri.ca)
+- Questions about this repository: [odm-info@phes-odm.org](mailto:odm-info@phes-odm.org)
 
 ## License
 
