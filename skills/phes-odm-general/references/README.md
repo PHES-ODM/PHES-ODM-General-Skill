@@ -14,8 +14,8 @@ a class, or the design rationale behind ODM v3).
 
 | File | Size | Description |
 | --- | --- | --- |
-| `odm_v3.yaml` | ~840 KB | LinkML schema for ODM v3 — 27 classes, 295 slots, 181 enumerations, 3,620 permissible values |
-| `odm_v2.yaml` | ~540 KB | LinkML schema for ODM v2 — 23 classes, 254 slots, 138 enumerations, 2,216 permissible values |
+| `odm_v3.yaml` | ~870 KB | LinkML schema for ODM v3 — 27 classes, 295 slots, 183 enumerations, 3,707 permissible values |
+| `odm_v2.yaml` | ~570 KB | LinkML schema for ODM v2 — 23 classes, 252 slots, 143 enumerations, 2,360 permissible values |
 | `odm_v1.yaml` | ~60 KB | LinkML schema for ODM v1 (legacy) — 12 classes, 107 slots, 18 enumerations, 171 permissible values |
 | `PHES-ODM-v3-Manuscript.pdf` | ~1.6 MB | Review paper describing ODM v3: rationale for new fields, design decisions, and changes from v2 |
 
